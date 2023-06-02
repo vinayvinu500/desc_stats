@@ -12,7 +12,7 @@ setup(
         'numpy',
         'pandas',
         'scipy',
-        'statsmodel'
+        'statsmodels'
     ],
     extras_require={
         "dev": [
