@@ -55,7 +55,7 @@ Especially when we encounter with High-Volume data, It would be better to come u
 
 # Output
 
-`<img src='./snaps/Desc_stats.png'>`
+<img src='./snaps/Desc_stats.png'>
 
 # How to import
 
