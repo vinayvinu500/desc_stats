@@ -6,7 +6,7 @@ Especially when we encounter with High-Volume data, It would be better to come u
 
 # Constraints:
 
-- Features(Attributes/Columns): Needs to be of Integer/Float datatype
+- Features(Attributes/Columns): Needs to be of Integer/Float datatype.
 
 # Functionalities
 
@@ -58,13 +58,14 @@ Especially when we encounter with High-Volume data, It would be better to come u
 
 # How to import
 
-    pip install desc_stats
+    pip install desc-stats
 
 # How to Use
 
     from desc_stats import desc_stats
 
-    desc_stats(df, features)
+    desc_stats(df, features) # list of features
+    desc_stats(df, feature1, feature2, ....) # Single feature
 
 # Contribute
 
