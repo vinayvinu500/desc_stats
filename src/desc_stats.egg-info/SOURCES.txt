@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+config/data.csv
+config/data.xlsx
+src/__init__.py
+src/desc_stats.py
+src/desc_stats.egg-info/PKG-INFO
+src/desc_stats.egg-info/SOURCES.txt
+src/desc_stats.egg-info/dependency_links.txt
+src/desc_stats.egg-info/requires.txt
+src/desc_stats.egg-info/top_level.txt
+tests/__init__.py
+tests/script.py

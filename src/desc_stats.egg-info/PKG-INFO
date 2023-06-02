@@ -1,3 +1,21 @@
+Metadata-Version: 2.1
+Name: desc-stats
+Version: 0.0.1
+Summary: Descriptive Statistics comprises of Measures of Central Tendency, Dispersion, Symmetry, Association, Normal Distribution, Misc.
+Home-page: https://github.com/vinayvinu500/desc_stats
+Author: Vinay Govardhanam
+Author-email: vinayvinu500@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Provides-Extra: dev
+License-File: LICENSE
+
 # Description
 
 Descriptive Statistics is a wide range topic in the world of Statistics
@@ -55,7 +73,7 @@ Especially when we encounter with High-Volume data, It would be better to come u
 
 # Output
 
-`<img src='./snaps/Desc_stats.png'>`
+![1685718493957](image/README/1685718493957.png)
 
 # How to import
 
