@@ -24,7 +24,7 @@ Especially when we encounter with High-Volume data, It would be better to come u
 
 # Constraints:
 
-- Features(Attributes/Columns): Needs to be of Integer/Float datatype
+- Features(Attributes/Columns): Needs to be of Integer/Float datatype.
 
 # Functionalities
 
@@ -72,18 +72,18 @@ Especially when we encounter with High-Volume data, It would be better to come u
   - Missing
 
 # Output
-
-![1685718493957](image/README/1685718493957.png)
+  ![Output](https://github.com/vinayvinu500/desc_stats/blob/5e630f6f05b775cef8aa1660658102a874bfce16/snaps/Desc_Stats.png)
 
 # How to import
 
-    pip install desc_stats
+    pip install desc-stats
 
 # How to Use
 
     from desc_stats import desc_stats
 
-    desc_stats(df, features)
+    desc_stats(df, features) # list of features
+    desc_stats(df, feature1, feature2, ....) # Single feature
 
 # Contribute
 
