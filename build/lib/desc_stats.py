@@ -23,7 +23,7 @@ def desc_stats(df, *features):
     features : list of features or single feature
 
     Output:
-    Mean, Median, Mode, Variance, Std_Dev, Coef_Var, Minimum, Maximum, Range, Q1, Q2, Q3, IQR, Adjusted_Q1, Adjusted_Q3, z_score_outliers, iqr_outliers, Skew, Kurtosis, Sum, Count, Missing, Unique, Duplicate, Missing_Ratio, Unique_Ratio, Duplicate_Ratio
+    Mean, Median, Mode, Variance, Std_Dev, Coef_Var, Minimum, Maximum, Range, Q1, Q2, Q3, IQR, Adjusted_Q1, Adjusted_Q3, z_score_outliers, iqr_outliers, Skew, Left_Skewed, Right_Skewed, Symmetric, Kurtosis, Leptokurtic, Platykurtic, Mesokurtic, P68, P95, P99, VIF, Covariance, Correlation, Sum, Count, Missing, Unique, Symbols.
 
     Bugs (Handled):
     1. If feature is not numeric
@@ -34,10 +34,13 @@ def desc_stats(df, *features):
     Two or More Features: 4.37 s ± 427 ms per loop (mean ± std. dev. of 7 runs, 1 loop each)
     """
 
-    # Features
-    features = features[0] if len(features) == 1 else features
-    features = [features] if type(features) == str else features
-    features = [i for i in features if type(i) in (int, float)]
+    # Features need to be numeric datatype
+    if features is None:
+        features = df.select_dtypes(include=['int64', 'float64']).columns.to_list()
+    else:
+        features = features[0] if len(features) == 1 else features
+        features = [features] if type(features) == str else features
+        features = [i for i in features if type(i) in (int, float)]
 
 
     # Measures of Central Tendency
