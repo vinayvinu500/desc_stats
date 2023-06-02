@@ -54,9 +54,8 @@ Especially when we encounter with High-Volume data, It would be better to come u
   - Missing
 
 # Output
-<div>
-  <img src='./snaps/Desc_stats.png'>
-</div>
+  ![Output](https://github.com/vinayvinu500/desc_stats/blob/5e630f6f05b775cef8aa1660658102a874bfce16/snaps/Desc_Stats.png)
+
 # How to import
 
     pip install desc_stats
