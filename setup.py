@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setup(
     name='desc_stats',
-    version='0.0.1',
+    version='0.0.2',
     description="Descriptive Statistics comprises of Measures of Central Tendency, Dispersion, Symmetry, Association, Normal Distribution, Misc.",
     py_modules=['desc_stats'],  
     install_requires=[
