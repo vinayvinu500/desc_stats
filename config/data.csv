@@ -1,0 +1,50 @@
+ID,Gender,Car,Property,Children,Income,Education,Family_Status,HouseType,Birth,WorkDays,Mobile,Phone,PersonalPhone,Email,Job,WorkMonths,Status,Target
+5065438,F,Y,N,2+ children,270000,Secondary / secondary special,Married,With parents,-13258,-2300,1,0,0,0,Managers,-6,C,0
+5142753,F,N,N,No children,81000,Secondary / secondary special,Single / not married,House / apartment,-17876,-377,1,1,1,0,Private service staff,-4,0,0
+5111146,M,Y,Y,No children,270000,Higher education,Married,House / apartment,-19579,-1028,1,0,1,0,Laborers,0,C,0
+5010310,F,Y,Y,1 children,112500,Secondary / secondary special,Married,House / apartment,-15109,-1956,1,0,0,0,Core staff,-3,0,0
+5010835,M,Y,Y,2+ children,139500,Secondary / secondary special,Married,House / apartment,-17281,-5578,1,1,0,0,Drivers,-29,0,0
+5067057,F,Y,Y,No children,144000,Secondary / secondary special,Married,House / apartment,-15394,-2959,1,0,1,0,Core staff,-25,0,0
+5095635,M,Y,N,1 children,180000,Higher education,Married,House / apartment,-11178,-219,1,0,0,0,Drivers,-19,X,0
+5096402,M,Y,N,No children,405000,Higher education,Married,House / apartment,-18655,-3200,1,1,1,0,High skill tech staff,-18,X,0
+5061372,F,N,Y,1 children,135000,Secondary / secondary special,Single / not married,House / apartment,-17068,-8325,1,0,0,0,Laborers,-43,0,0
+5026464,F,N,Y,1 children,270000,Secondary / secondary special,Married,House / apartment,-16616,-2722,1,1,1,0,Realty agents,-38,0,0
+5026032,M,Y,Y,No children,99000,Secondary / secondary special,Married,Rented apartment,-9928,-1531,1,0,0,0,Managers,-15,0,0
+5096494,F,N,N,2+ children,103500,Higher education,Married,House / apartment,-12987,-3537,1,0,1,0,High skill tech staff,-30,X,0
+5058466,F,N,Y,2+ children,225000,Secondary / secondary special,Civil marriage,House / apartment,-12486,-1816,1,0,0,0,Laborers,-26,0,0
+5088843,F,N,Y,No children,171000,Higher education,Single / not married,House / apartment,-10224,-2073,1,0,0,0,Laborers,-8,X,0
+5149050,F,N,N,2+ children,135000,Secondary / secondary special,Married,House / apartment,-15050,-4977,1,0,0,0,Laborers,-39,0,0
+5023566,M,Y,Y,2+ children,270000,Secondary / secondary special,Married,House / apartment,-12323,-1117,1,0,1,0,Laborers,-12,C,0
+5095306,F,Y,Y,No children,225000,Higher education,Married,House / apartment,-12322,-3717,1,0,0,0,Core staff,-52,X,0
+5022248,F,N,Y,No children,202500,Secondary / secondary special,Married,House / apartment,-15231,-8375,1,0,0,1,High skill tech staff,-7,C,0
+5023934,F,N,Y,2+ children,135000,Secondary / secondary special,Separated,House / apartment,-14874,-2407,1,0,0,0,Core staff,-20,0,0
+5105886,F,N,N,2+ children,67500,Higher education,Married,House / apartment,-12231,-3072,1,1,1,0,Secretaries,-35,C,0
+5022044,F,Y,N,1 children,225000,Secondary / secondary special,Separated,House / apartment,-11714,-1740,1,0,0,1,Core staff,-25,C,0
+5095735,M,N,N,No children,405000,Higher education,Married,House / apartment,-18267,-2045,1,1,0,0,Managers,-18,C,0
+5021445,F,N,Y,No children,121500,Secondary / secondary special,Married,With parents,-13315,-5204,1,1,1,0,Core staff,-15,C,0
+5095851,F,N,N,No children,225000,Secondary / secondary special,Widow,House / apartment,-20657,-5637,1,0,0,0,Accountants,-32,X,0
+5050878,F,N,N,No children,270000,Secondary / secondary special,Married,House / apartment,-13101,-2204,1,1,1,0,Accountants,-2,C,0
+5116121,F,Y,Y,1 children,560250,Secondary / secondary special,Single / not married,House / apartment,-12987,-2330,1,0,0,0,Sales staff,-20,0,0
+5117760,F,N,N,No children,74250,Secondary / secondary special,Married,House / apartment,-19931,-3141,1,1,0,0,Core staff,-11,0,0
+5135918,M,N,Y,2+ children,90000,Secondary / secondary special,Married,House / apartment,-15988,-566,1,1,1,0,Laborers,-30,0,0
+5117163,F,N,N,1 children,135000,Secondary / secondary special,Separated,House / apartment,-16150,-5148,1,0,0,0,Medicine staff,-10,C,0
+5050562,M,N,N,2+ children,225000,Higher education,Civil marriage,House / apartment,-16768,-3088,1,1,0,0,Laborers,-13,0,0
+5061121,F,N,Y,1 children,324000,Higher education,Married,House / apartment,-13482,-4795,1,0,0,0,Managers,-11,X,0
+5036943,F,N,Y,No children,391500,Secondary / secondary special,Single / not married,House / apartment,-13995,-5849,1,0,0,0,Managers,-18,X,0
+5054192,F,N,N,No children,135000,Secondary / secondary special,Married,House / apartment,-11390,-515,1,0,1,0,Sales staff,-20,C,0
+5054384,M,Y,N,No children,292500,Higher education,Single / not married,House / apartment,-14050,-3680,1,1,1,0,Laborers,-13,0,0
+5148650,F,Y,Y,1 children,202500,Secondary / secondary special,Married,House / apartment,-15346,-2481,1,0,0,0,Laborers,-6,X,0
+5048416,F,N,Y,No children,229500,Higher education,Married,House / apartment,-16641,-1192,1,0,0,0,Core staff,-6,X,0
+5085793,F,N,Y,No children,157500,Incomplete higher,Married,House / apartment,-14140,-2513,1,0,0,0,Drivers,-33,X,0
+5054311,F,N,N,No children,112500,Secondary / secondary special,Married,House / apartment,-20285,-1734,1,1,1,0,High skill tech staff,-34,C,0
+5021709,F,N,Y,2+ children,202500,Lower secondary,Married,House / apartment,-13483,-5204,1,0,0,1,Laborers,-7,0,0
+5028530,F,N,Y,No children,171000,Secondary / secondary special,Married,House / apartment,-15629,-356,1,0,0,0,Sales staff,-19,0,0
+5086055,F,N,Y,No children,202500,Secondary / secondary special,Married,House / apartment,-15929,-2879,1,0,1,0,Laborers,-4,C,0
+5117403,F,N,N,No children,94500,Secondary / secondary special,Married,House / apartment,-16758,-1619,1,0,0,0,Waiters/barmen staff,-3,C,0
+5095009,M,N,Y,2+ children,180000,Secondary / secondary special,Married,House / apartment,-10640,-1494,1,1,1,0,Laborers,-31,0,0
+5090155,M,Y,Y,1 children,225000,Higher education,Married,House / apartment,-12763,-2255,1,0,1,0,Core staff,-4,C,0
+5117461,F,Y,N,1 children,148500,Secondary / secondary special,Married,House / apartment,-11675,-3779,1,1,0,0,Sales staff,-32,0,0
+5105584,F,N,N,No children,171000,Secondary / secondary special,Married,House / apartment,-10063,-917,1,0,0,0,Private service staff,-1,X,0
+5149940,F,N,N,No children,450000,Secondary / secondary special,Married,House / apartment,-18826,-686,1,0,0,0,Laborers,-19,0,0
+5145821,F,N,N,No children,202500,Secondary / secondary special,Separated,House / apartment,-14562,-4653,1,0,0,0,High skill tech staff,-25,X,0
+5086037,F,N,Y,No children,90000,Secondary / secondary special,Married,House / apartment,-17444,-1112,1,1,0,0,Laborers,-34,0,0

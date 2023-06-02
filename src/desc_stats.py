@@ -40,7 +40,6 @@ def desc_stats(df, *features):
     else:
         features = features[0] if len(features) == 1 else features
         features = [features] if type(features) == str else features
-        features = [i for i in features if type(i) in (int, float)]
 
     # Measures of Central Tendency
     Mean = df[features].mean()
@@ -65,7 +64,7 @@ def desc_stats(df, *features):
 
     # Outliers
     z_score_outliers = df[features][(np.abs(zscore(df[features])) > 3.0)].dropna()
-    iqr_outliers = df[df[features] < Adjusted_Q1].append(df[df[features] > Adjusted_Q3])  # more accurate in iqr
+    iqr_outliers = df[features][(df[features] < Adjusted_Q1) | (df[features] > Adjusted_Q3)] # more accurate in iqr
 
     # Measures of Symmetry
     Skew = df[
@@ -102,10 +101,10 @@ def desc_stats(df, *features):
     # Measures of Association
     Covariance = {i: pd.Series(j).index[0] for i, j in df[features].cov().items()} if len(features) <= 1 else {
         i: pd.Series(j).sort_values(ascending=False).iloc[[2]].index[0] for i, j in
-        df.cov().to_dict().items()}  # second highest
+        df[features].cov().to_dict().items()}  # second highest
     Correlation = {i: pd.Series(j).index[0] for i, j in df[features].cov().items()} if len(features) <= 1 else {
         i: pd.Series(j).sort_values(ascending=False).iloc[[2]].index[0] for i, j in
-        df.corr().to_dict().items()}  # second highest
+        df[features].corr().to_dict().items()}  # second highest
 
     # Multi-Collinearity (VIF)
     VIF = np.nan if len(features) <= 1 else pd.Series(
@@ -161,3 +160,5 @@ def desc_stats(df, *features):
 # desc_stats(df, 'Workdays', 'WorkMonths')
 # desc_stats(df, 'Workdays')
 # return desc_stats(df, Num) # elapsed time: 7.5s
+
+# version 0.0.2 => will change the input to any file and output the only numeric features

@@ -1,9 +1,0 @@
-LICENSE
-README.md
-setup.py
-src/desc_stats.py
-src/desc_stats.egg-info/PKG-INFO
-src/desc_stats.egg-info/SOURCES.txt
-src/desc_stats.egg-info/dependency_links.txt
-src/desc_stats.egg-info/requires.txt
-src/desc_stats.egg-info/top_level.txt

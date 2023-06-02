@@ -53,6 +53,10 @@ Especially when we encounter with High-Volume data, It would be better to come u
   - Count
   - Missing
 
+# Output
+
+![1685718493957](image/README/1685718493957.png)
+
 # How to import
 
     pip install desc_stats
