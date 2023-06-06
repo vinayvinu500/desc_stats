@@ -63,7 +63,9 @@ Especially when we encounter with High-Volume data, It would be better to come u
 # How to Use
 
     from desc_stats import desc_stats
-
+    
+    features = df.select_dtypes(include=['int64', 'float64']).columns.to_list() # Numeric features
+    
     desc_stats(df, features) # list of features
     desc_stats(df, feature1, feature2, ....) # Single feature
 
